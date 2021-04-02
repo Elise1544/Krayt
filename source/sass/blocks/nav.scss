@@ -1,0 +1,14 @@
+.nav ul {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.nav__item {
+  margin:  0 20px;
+  color: $names;
+}
+
+.nav__item--active {
+  color: $accent;
+}

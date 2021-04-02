@@ -1,0 +1,83 @@
+.events li {
+  width: 30.5%;
+  margin: 15px;
+  background-color: $white;
+}
+
+.events__link {
+  display: flex;
+  flex-direction: column;
+}
+
+.events li:first-of-type {
+  width: 63.5%;
+}
+
+.events li:first-of-type .events__link {
+  flex-direction: row;
+}
+
+.events__link img {
+  display: block;
+}
+
+.events__link div{
+  padding: 0 17px 17px 17px;
+}
+
+.events__link h3 {
+  margin: 14px 0 2px 0;
+
+  font-family: "Lora", "Garamond", serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: $names;
+}
+
+.events__link cite {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.events li:first-of-type div {
+  padding: 0 30px;
+}
+
+.events li:first-of-type h3 {
+  margin: 31px 0 25px 0;
+
+  font-family: "Lora", "Garamond", serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+}
+
+.events li:first-of-type p {
+  font-size: 16px;
+  line-height: 26px;
+  color: $text;
+}
+
+.events li:first-of-type .events__author {
+  display: flex;
+  padding: 0;
+}
+
+.events li:first-of-type .events__author div{
+  padding: 0 25px;
+}
+
+.events li:first-of-type .events__author cite {
+  font-family: "Lora", "Garamond", serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: $features;
+}
+
+.events li:first-of-type .events__author p {
+  padding: 0;
+  margin: 0;
+}

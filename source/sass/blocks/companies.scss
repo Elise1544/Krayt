@@ -1,0 +1,36 @@
+.companies {
+  padding: 78px 7%;
+  text-align: center;
+}
+
+.companies h2 {
+  margin-bottom: 24px;
+  margin-right: 13px;
+  font-family: "Lora", "Garamond", serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  color: $features;
+}
+
+.companies p {
+  margin-right: 15px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: $text;
+}
+
+.companies ul {
+  margin-top: 71px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.companies li {
+  margin: 0 auto;
+}

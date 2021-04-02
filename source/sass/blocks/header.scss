@@ -1,0 +1,21 @@
+.header {
+  padding-top: 61px;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+
+.header .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header .logo {
+  margin: 12px 7px;
+  width: 16%;
+}

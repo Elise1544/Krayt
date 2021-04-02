@@ -1,0 +1,134 @@
+.slider-review {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+
+.slider-review h2 {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 9px;
+  margin-left: 11%;
+  padding-left: 5px;
+  flex-basis: 100%;
+
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: $names;
+}
+
+.slider-review h2::after {
+  position: absolute;
+  content: "";
+  width: 73px;
+  height: 2px;
+  top: 45%;
+  right: -88px;
+  background-color: $names;
+}
+
+.slider-review h3 {
+  margin: 0 0 57px 11%;
+  padding-left: 5px;
+
+  font-family: "Lora", "Garamond", serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  color: $features;
+}
+
+.slider-review__container {
+  margin-left: 11%;
+  padding-left: 5px;
+}
+
+.slider-review__wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+.slider-review__slide {
+  padding: 30px 8px 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 393px;
+
+  background-color: $features;
+  color: $white;
+}
+
+.slider-review__slide blockquote {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.slider-review__slide .slider-review__author {
+  margin: auto 0 0 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.slider-review__slide img {
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+
+.slider-review__author div {
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-review__author cite {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.slider-review__slide p {
+margin: 0;
+margin-top: 8px;
+}
+
+.slider-review__button {
+  position: absolute;
+  display: inline-block;
+
+  top: 20.5%;
+  fill: $accent;
+}
+
+.slider-review__button svg {
+  margin: 0 10px;
+  width: 92px;
+  height: 26px;
+}
+
+.slider-review .swiper-button-disabled {
+  fill: $text;
+}
+
+.slider-review__button--prev {
+  right: 17%;
+}
+
+.slider-review__button--next {
+  right: 11.5%;
+}
+
+.slider-review__scrollbar {
+  position: absolute;
+  bottom: 14px;
+  left: calc(50% - 86px);
+  width: 160px;
+  height: 4px;
+  background-color: $scrollbar;
+}
+
+.slider-review__scrollbar .swiper-scrollbar-drag {
+  height: 4px;
+  background-color: $accent;
+}

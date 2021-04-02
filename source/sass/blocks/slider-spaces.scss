@@ -1,0 +1,160 @@
+.slider-spaces {
+  position: relative;
+  margin: 0 6px;
+  padding-top: 76px;
+}
+
+.slider-spaces h2 {
+  width: 33%;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Lora", "Garamond", serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  color: $features;
+}
+
+.slider-spaces p {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 9px;
+  width: 42%;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: $text;
+}
+
+.slider-spaces__container {
+  margin-top: 26px;
+  text-align: center;
+}
+
+.slider-spaces__slide img {
+  display: block;
+}
+
+.slider-spaces__slide div:first-child {
+  position: relative;
+}
+
+.slider-spaces__slide .text {
+  position: absolute;
+  width: 74%;
+  top: calc(50% - 115px);
+  left: calc(50% - 141px);
+  color: $white;
+  text-align: center;
+}
+
+.slider-spaces__slide .text h3 {
+  margin-bottom: 0;
+
+  font-family: "Lora", "Garamond", serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  letter-spacing: 0.5px;
+}
+
+.slider-spaces__slide .text p {
+  margin-top: 14px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: $white;
+}
+
+.slider-spaces__slide div:last-child {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 72px;
+  min-height: 72px;
+  bottom: 0;
+  left: 0;
+  background-color: $accent;
+  color: $white;
+  padding: 0 29px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.slider-spaces__slide span {
+  padding: 0 30px;
+}
+
+.slider-spaces__slide svg {
+  fill: $white;
+}
+
+.slider-spaces__slide h3 {
+  margin-top: 24px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.slider-spaces__button {
+  position: absolute;
+  display: inline-block;
+
+  top: 140px;
+  fill: $accent;
+}
+
+.slider-spaces__button svg {
+  margin: 0 10px;
+  width: 92px;
+  height: 26px;
+}
+
+.slider-spaces .swiper-button-disabled {
+  fill: $text;
+}
+
+.slider-spaces__button--prev {
+  right: 237px;
+}
+
+.slider-spaces__button--next {
+  right: 161px;
+}
+
+.slider-spaces__scrollbar {
+  position: absolute;
+  bottom: 35px;
+  left: calc(50% - 86px);
+  width: 160px;
+  height: 4px;
+  background-color: $scrollbar;
+}
+
+.slider-spaces__scrollbar .swiper-scrollbar-drag {
+  height: 4px;
+  background-color: $accent;
+}
+
+.slider-spaces__pagination {
+  margin-top: 41px;
+
+  font-size: 18px;
+  line-height: 28px;
+  color: $text;
+}
+
+.slider-spaces__pagination .swiper-pagination-current {
+  margin-right: 5px;
+  color: $names;
+}
+
+.slider-spaces__pagination .swiper-pagination-total {
+  margin-left: 5px;
+}
